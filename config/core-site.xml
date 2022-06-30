@@ -20,9 +20,5 @@
         <name>hadoop.proxyuser.hadoop.groups</name>
         <value>*</value>
     </property>
-    <property>
-        <name>hadoop.tmp.dir</name>
-        <value>/usr/local/hadoop/tmp</value>
-    </property>
 
 </configuration>

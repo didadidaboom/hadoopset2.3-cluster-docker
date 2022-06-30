@@ -25,7 +25,7 @@ export SPARK_DIST_CLASSPATH=$(/usr/local/hadoop/bin/hadoop classpath)
 export SPARK_MASTER_HOST=hadoop-master
 export SPARK_MASTER_PORT=7077
 
-export SPARK_HISTORY_OPTS="-Dspark.history.ui.port=18080 -Dspark.history.retainedApplications=50 -Dspark.history.fs.logDirectory=hdfs://hadoop-master:9000/spark-eventlog"
+#export SPARK_HISTORY_OPTS="-Dspark.history.ui.port=18080 -Dspark.history.retainedApplications=50 -Dspark.history.fs.logDirectory=hdfs://hadoop-master:9000/spark-eventlog"
 
 # This file is sourced when running various Spark programs.
 # Copy it as spark-env.sh and edit that to configure Spark for your site.

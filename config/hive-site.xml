@@ -20,10 +20,6 @@
   <!-- WARNING!!! You must make your changes in hive-site.xml instead.         -->
   <!-- Hive Execution Parameters -->
   <property>
-    <name>spark.home</name>
-    <value>/usr/local/spark/</value>
-  </property>
-  <property>
     <name>spark.master</name>
     <value>yarn</value>
   </property>
@@ -48,11 +44,6 @@
     <value>hdfs://hadoop-master:9000/spark-jars/*</value>
   </property>
 
-  <property>
-    <name>system:java.io.tmpdir</name>
-    <value>/usr/local/hive/tmp/hive/java</value>
-    <description/>
-  </property>
   <property>
     <name>system:user.name</name>
     <value>${user.name}</value>

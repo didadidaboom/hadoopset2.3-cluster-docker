@@ -5,8 +5,8 @@ N=${1:-3}
 
 
 # start mysql container
-#sudo docker rm -f hadoop-mysql &> /dev/null
-#echo "start hadoop-mysql container..."
+sudo docker rm -f hadoop-mysql &> /dev/null
+echo "start hadoop-mysql container..."
 sudo docker run -itd \
                 --net=hadoop \
                 --name hadoop-mysql \

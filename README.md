@@ -104,7 +104,7 @@ do 5~6 like section A
 ##### 1. Run hive metastore sevice
 
 ```
-hive --service metastore
+hive --sevice metastore
 ```
 
 ##### 2. Create initial database

@@ -5,14 +5,6 @@
         <value>yarn</value>
     </property>
     <property>
-        <name>mapreduce.jobhistory.address</name>
-        <value>hadoop-master:10020</value>
-    </property>
-    <property>
-        <name>mapreduce.jobhistory.webapp.address</name>
-        <value>hadoop-master:19888</value>
-    </property>
-    <property>
         <name>mapreduce.map.memory.mb</name>
         <value>1024</value>
     </property>
@@ -22,11 +14,11 @@
     </property>
     <property>
         <name>mapreduce.map.java.opts</name>
-        <value>-Xmx1g</value>
+        <value>-Xmx820m</value>
     </property>
     <property>
         <name>mapreduce.reduce.java.opts</name>
-        <value>-Xmx2g</value>
+        <value>-Xmx1639m</value>
     </property>
 
 
